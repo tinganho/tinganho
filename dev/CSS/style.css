@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+html{
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+body{
+/*	position: relative;*/
+	background-color: #31333E;
+	background-image: url('../images/gradient2.png');
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+.logo2{
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	margin-left: -215px;
+}
+.canvasWrapper{
+	margin: 0px auto 100px;
+	width: 900px;
+}
+.stars{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-image: url('../images/stars.png');
+	width: 100%;
+	height: 500px;
+}
+.canvas{
+	position: relative;
+	width: 900px;
+	min-height: 1000px;
+}
+.header{
+	position: relative;
+	height: 150px;
+	
+}
+.header .logo{
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	height: 150px;
+	width: 300px;
+	line-height: 150px;
+	text-align: center;
+	font-size: 52px;
+	color: #666;
+	font-family: tamarillo;
+	font-weight: 400;
+	color: white;
+}
+.header .subText{
+	position: absolute;
+	left: 50%;
+	margin-left: -400px;
+	top: 76px;
+	width: 300px;
+	font-family: georgia;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold; 
+	text-align: right;
+	color: #08c;
+}
+.header .subText2{
+	position: absolute;
+	left: 50%;
+	margin-left: 100px;
+	top: 72px;
+	width: 300px;
+	font-family: raleway;
+	font-size: 28px;
+	text-align: left;
+	color: #08c;
+}
+.initialBookHalf{
+	position: relative;
+	min-height: 1000px;
+	width: 400px;
+	background-color: #222;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+	border-radius: 4px;
+	padding-bottom: 50px;
+	-webkit-transform-origin: 100% 50%;
+}
+.initialBookHalf .profileMiniatureContainer{
+	position: relative;
+	top: 50px;
+	margin-left: 150px;
+	width: 100px;
+	height: 100px;
+	border: 3px solid #333;
+	border-radius: 1000px;
+}
+.initialBookHalf .profileMiniatureContainer img{
+	width: 100px;
+	height: 100px;
+}
+.posts{
+	position: relative;
+	margin: 0px 20px;
+	margin-top: 100px;
+	color: white;
+}
+h1{
+	font-family: raleway;
+	font-weight: 300;
+	color: white;
+}
+p{
+	font-family: raleway;
+	font-weight: 300;
+	color: #ddd;
+}
+.bookWrapper{
+	position: relative;
+	margin-left: 250px;
+	min-height: 1000px;
+	width: 400px;
+	-webkit-transition: margin-left 0.6s linear;
+}
+.workRibbon{
+	position: absolute;
+	top: 50px;
+	right: -105px;
+	z-index: 0;
+	cursor: pointer;
+}
+.bookHalf.right{
+	position: absolute;
+	top: 0px;
+	-webkit-transform-origin: 0% 50%;
+	perspective:2000;
+	-webkit-perspective:2000; 
+}
+.bookHalf{
+	position: relative;
+	width: 400px;
+	padding-bottom: 50px;
+	background-color: #222;
+	min-height: 1000px;
+	-webkit-transition: -webkit-transform 0.6s linear;
+}
+.bookHalf.left{
+	position: absolute;
+	top: 0px;
+	-webkit-transform-origin: 100% 50%;
+	perspective:2000;
+	-webkit-perspective:2000; 
+}
+.bookHalfWrapper{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.controllers{
+	position: relative;
+	height: 80px;
+	margin-top: 20px;
+}
+.controllers .backBtnLeft{
+	position: absolute;
+	left: 40px;
+	width: 50px;
+	height: 50px;
+	top: 20px;
+	cursor: pointer;
+}
+.controllers .backBtnRight{
+	position: absolute;
+	right: 40px;
+	width: 50px;
+	height: 50px;
+	top: 20px;
+	cursor: pointer;
+}
+.imagesContainer{
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	margin-left: 40px;
+	overflow: hidden;
+	width: 447px;
+}
+.imagesContainer img{
+	width: 447px;
+	margin-bottom: 100px;
+	-webkit-box-reflect: below 0px
+	 -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255,
+	 0) ), color-stop(0.8, rgba(255, 255, 255, 0) ),
+	 color-stop(0.9, rgba(255, 255, 255, 0.1) ),
+	 to(rgba(255, 255, 255, 0.15) ) );
+}
+.openBook{
+	position: relative;
+	width: 800px;
+}
+.pageInfoContainer{
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	width: 250px;
+}
+.email{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+.email:hover{
+	text-decoration: underline;
+}
+.link{
+	color: #08c;
+	font-family: arial;
+	text-decoration: none;
+	word-wrap: break-word;
+}
+.link:hover{
+	text-decoration: underline;
+}
+.unsupport_web_browser_title{
+	position: absolute;
+	color: white;
+	font-family: tamarillo;
+	top: 100px;
+	left: 50%;
+	width: 800px;
+	margin-left: -400px;
+	font-size: 42px;
+	text-align: center;
+}
