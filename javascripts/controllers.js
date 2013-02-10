@@ -2,7 +2,18 @@
 var pagesData =
 	[
 		{
-                        images: ['chromeBig2.png', 'clockies3.jpg', 'clockies1.jpg', 'clockies5.jpg'], title: 'Clockies',
+			images: ['gruntTranslate.png'], title: 'Grunt Translate(ongoing)',
+			info: 'Translation have been a big problem for many developers. Especially when translating dynamic text. Gettext doesn’t support dynamic text, but you can import that kind of functionality with printf. The problem is though that the translator doesn’t know all the variables in the translation interface. So he rely on the developer to translate texts. Grunt-translate solves this problem and it updates hashes from source like gettext and display all hashes including all variables in the translation interface. Grunt-translate will compile all translation till ready to use translation functions. You can create very complex translations like “Andreas likes 2 cows and 1 rat in the zoo”.',
+			link: 'https://github.com/tinganho/grunt-contrib-translate'
+		},
+		{
+			images: ['sass.png', 'sass-chrome.png'], title: 'SASS Inspector',
+			info: 'As SASS is emerging on all fronts there hasn’t been any SASS Inspector for Chrome. Not even the inventor of SASS could export this kind of functionality to Chrome. Luckily, I was the first one who created it :). Now there is a built in version of SASS Inspector in Chrome.',
+			link: 'https://chrome.google.com/webstore/detail/sass-inspector/lkofmbmllpgfbnonmnenkiakimpgoamn'
+		},
+
+		{
+			images: ['chromeBig2.png', 'clockies3.jpg', 'clockies1.jpg', 'clockies5.jpg'], title: 'Clockies',
 			info: 'Clockies is social appointment booking website. Service providers in local businesses ' +
 			'almost always market them selves through the word-of-mouth from their customers. Clockies strengthens ' +
 			'this word-of-mouth spread by giving the end-customers beautiful designed business cards, so they can share good service '+
@@ -10,20 +21,16 @@ var pagesData =
 			'<br><br>'+
 			'Clockies is very intuitive and simple and got fancy animations to make it more fun browsing the website. Clockies is equipped with a SOLR search engine, so searching for any kind of businesses gets relevant. '+
 			'We also enabled calendar sync via CALDAV, so employees can keep track of new bookings on the go with their phones. ',
-			link: 'http://www.clockies.com'
+			link: ''
 		},
 		{
-                        images: ['velinho2.jpg', 'velinho3.jpg', 'velinho1.jpg'], title: 'Velinho',
+			images: ['velinho2.jpg', 'velinho3.jpg', 'velinho1.jpg'], title: 'Velinho',
 			info: 'Pin your favorite videos with Velinho. It\'s a simple and beautiful website for browsing YouTube videos. Velinho is not yet finished. But feel free to test it out. Some buttons and functionality won\'t work yet.',
-			link: 'http://www.velinho.com'
+			link: ''
 		},
+
 		{
-                        images: ['sass.png', 'sass-chrome.png'], title: 'SASS Inspector',
-                        info: 'As SASS is emerging on all fronts there hasn’t been any SASS Inspector for Chrome. Not even the inventor of SASS could export this kind of functionality to Chrome. Luckily, I was the first one who created it :). Now there is a built in version of SASS Inspector in Chrome.',
-                        link: 'https://chrome.google.com/webstore/detail/sass-inspector/lkofmbmllpgfbnonmnenkiakimpgoamn'
-		},
-		{
-                        images: ['me-smiling.jpg'], title: 'Contact Me',
+			images: ['me-smiling.jpg'], title: 'Contact Me',
 			info: "I\'m available for jobs right now. I want jobs where I can put my heart on it. If you got any interesting contact me at <a class='email' href='mailto:tingan@clockies.com'>tingan@clockies.com</a>"
 		}
     ];
@@ -215,7 +222,7 @@ TinganHo.prototype.showPage = function(pageIndex, flip){
 		}else{
 			var oldBookHalfLeft = $('.bookHalf.left:first');
 			var oldBookHalfRight = $(oldBookHalfLeft).find('.bookHalf');
-                }
+		}
 		$(incomingLeftHalf).append(oldBookHalfRight);
 		$(oldBookHalfRight).css('-webkit-transform', 'rotateY(180deg)').css('margin-left', 0).css('border', 'none').css('box-shadow', 'none').css('position', 'absolute')
 		.css('top', 0).css('left', 0).css('margin-left', 400);
@@ -256,7 +263,7 @@ TinganHo.prototype.showPage = function(pageIndex, flip){
 		}else{
 			var oldBookHalfLeft = $('.bookHalf.left:first');
 			var oldBookHalfRight = $(oldBookHalfLeft).find('.bookHalf');
-                }
+		}
 		$(incomingRightHalf).append(oldBookHalfLeft);
 		$(oldBookHalfLeft).css('position', 'absolute').css('top', 0).css('left', 0).css('margin-left', -400).css('-webkit-transform', 'rotateY(180deg)');
 		$('.bookWrapper').append(oldBookHalfRight);
