@@ -22,8 +22,8 @@ var pagesData =
 			link: 'https://github.com/tinganho/stylewithclass'
 		},
 		{
-			images: ['dot.png'], title: 'Grunt-dot-compiler',
-			info: 'We needed a doT template compiler for both the client and server side on P1. When the compiling is done you can access super fast rendering functions',
+                        images: ['dot.png', 'dotFunctions.png'], title: 'Grunt-dot-compiler',
+                        info: 'Grunt-dot-compiler is a doT template compiler for both the client and server side. When the compiling is done you can access super fast rendering functions',
 			link: 'https://github.com/tinganho/grunt-dot-compiler'
 		},
 		{
