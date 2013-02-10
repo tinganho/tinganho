@@ -17,13 +17,18 @@ var pagesData =
 			link: 'https://chrome.google.com/webstore/detail/sass-inspector/lkofmbmllpgfbnonmnenkiakimpgoamn'
 		},
 		{
-			images: ['stylewithclass.png'], title: 'Stylewithclass/CSS pruner',
+			images: ['stylewithclass.png'], title: 'Stylewithclass & CSS pruner',
 			info: 'Stylewithclass is a Compass extension. IT does with it says, style web pages using CSS classes. The problem it solves is that usually CSS files gets too bloated and we wanted to solve it in Wunderkraut. So I invented a way and a workflow so you actually in theory can get pretty near the minimal lines of code it requires to define the style of a website.',
 			link: 'https://github.com/tinganho/stylewithclass'
 		},
 		{
-                        images: ['dot.png', 'dotFunctions.png'], title: 'Grunt-dot-compiler',
-                        info: 'Grunt-dot-compiler is a doT template compiler for both the client and server side. When the compiling is done you can access super fast rendering functions',
+			images: ['yeoman.png'], title: 'Connect-rewrite',
+			info: 'Yeoman is a big front-end project initiated by Google. Paul Irish, Addy Osmani and Sindre Sorhus is one of the members of the project team. They had a problem adding mod-rewrite to Yeoman, because they couldn’t find a way to only normalize relative asset paths. They had that problem in months.',
+			link: 'https://github.com/tinganho/grunt-contrib-connect-modrewrite'
+		},
+		{
+			images: ['dot.png', 'dotFunctions.png'], title: 'Grunt-dot-compiler',
+			info: 'Grunt-dot-compiler is a doT template compiler for both the client and server side. When the compiling is done you can access super fast rendering functions',
 			link: 'https://github.com/tinganho/grunt-dot-compiler'
 		},
 		{
