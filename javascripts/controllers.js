@@ -2,7 +2,7 @@
 var pagesData =
 	[
 		{
-			images: ['gruntTranslate.png'], title: 'Grunt Translate(ongoing)',
+			images: ['gruntTranslate.png'], title: 'Grunt Translate (ongoing)',
 			info: 'Translation have been a big problem for many developers. Especially when translating dynamic text. Gettext doesn’t support dynamic text, but you can import that kind of functionality with printf. The problem is though that the translator doesn’t know all the variables in the translation interface. So he rely on the developer to translate texts. Grunt-translate solves this problem and it updates hashes from source like gettext and display all hashes including all variables in the translation interface. Grunt-translate will compile all translation till ready to use translation functions. You can create very complex translations like “Andreas likes 2 cows and 1 rat in the zoo”.',
 			link: 'https://github.com/tinganho/grunt-contrib-translate'
 		},
@@ -11,7 +11,6 @@ var pagesData =
 			info: 'As SASS is emerging on all fronts there hasn’t been any SASS Inspector for Chrome. Not even the inventor of SASS could export this kind of functionality to Chrome. Luckily, I was the first one who created it :). Now there is a built in version of SASS Inspector in Chrome.',
 			link: 'https://chrome.google.com/webstore/detail/sass-inspector/lkofmbmllpgfbnonmnenkiakimpgoamn'
 		},
-
 		{
 			images: ['chromeBig2.png', 'clockies3.jpg', 'clockies1.jpg', 'clockies5.jpg'], title: 'Clockies',
 			info: 'Clockies is social appointment booking website. Service providers in local businesses ' +
@@ -20,13 +19,16 @@ var pagesData =
 			'providers among their friends in social media.'+
 			'<br><br>'+
 			'Clockies is very intuitive and simple and got fancy animations to make it more fun browsing the website. Clockies is equipped with a SOLR search engine, so searching for any kind of businesses gets relevant. '+
-			'We also enabled calendar sync via CALDAV, so employees can keep track of new bookings on the go with their phones. ',
-			link: ''
+			'We also enabled calendar sync via CALDAV, so employees can keep track of new bookings on the go with their phones. '
+		},
+		{
+			images: ['flowchart1.png', 'flowchart2.png'], title: 'RFID Secure Authentication Protocol',
+			info: 'I invented a solution for RFID Secure Authentication Protocol. The protocol is called IKL. IKL stands for Identifier, Key and Lock and it uses these three components to deal with replay attacks, privacy issues, cloning attacks, DOS etc',
+			link: 'https://www.lucidchart.com/documents/edit/47d8-9768-5095320c-b89d-55d70a40476b'
 		},
 		{
 			images: ['velinho2.jpg', 'velinho3.jpg', 'velinho1.jpg'], title: 'Velinho',
-			info: 'Pin your favorite videos with Velinho. It\'s a simple and beautiful website for browsing YouTube videos. Velinho is not yet finished. But feel free to test it out. Some buttons and functionality won\'t work yet.',
-			link: ''
+			info: 'Pin your favorite videos with Velinho. It\'s a simple and beautiful website for browsing YouTube videos. Velinho is not yet finished. But feel free to test it out. Some buttons and functionality won\'t work yet.'
 		},
 
 		{
