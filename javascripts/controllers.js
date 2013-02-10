@@ -23,7 +23,7 @@ var pagesData =
 		},
 		{
 			images: ['yeoman.png'], title: 'Connect-rewrite',
-			info: 'Yeoman is a big front-end project initiated by Google. Paul Irish, Addy Osmani and Sindre Sorhus is one of the members of the project team. They had a problem adding mod-rewrite to Yeoman, because they couldn’t find a way to only normalize relative asset paths. They had that problem in months.',
+			info: 'Yeoman is a big front-end project initiated by Google. Paul Irish, Addy Osmani and Sindre Sorhus is one of the members of the project team. They had a problem adding mod-rewrite to Yeoman, because they couldn’t find a way to only normalize relative asset paths. They had that problem in months. connect-rewrite solves that problem and is maybe added in Yeoman after version 1.0.',
 			link: 'https://github.com/tinganho/grunt-contrib-connect-modrewrite'
 		},
 		{
