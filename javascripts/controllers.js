@@ -22,6 +22,11 @@ var pagesData =
 			link: 'https://github.com/tinganho/stylewithclass'
 		},
 		{
+			images: ['dot.png'], title: 'Grunt-dot-compiler',
+			info: 'We needed a doT template compiler for both the client and server side on P1. When the compiling is done you can access super fast rendering functions',
+			link: 'https://github.com/tinganho/grunt-dot-compiler'
+		},
+		{
 			images: ['chromeBig2.png', 'clockies3.jpg', 'clockies1.jpg', 'clockies5.jpg'], title: 'Clockies',
 			info: 'Clockies is social appointment booking website. Service providers in local businesses ' +
 			'almost always market them selves through the word-of-mouth from their customers. Clockies strengthens ' +
