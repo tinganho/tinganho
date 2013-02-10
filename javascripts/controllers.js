@@ -12,6 +12,11 @@ var pagesData =
 			link: 'https://chrome.google.com/webstore/detail/sass-inspector/lkofmbmllpgfbnonmnenkiakimpgoamn'
 		},
 		{
+			images: ['flowchart1.png', 'flowchart2.png'], title: 'RFID Secure Authentication Protocol',
+			info: 'I invented a solution for RFID Secure Authentication Protocol. The protocol is called IKL. IKL stands for Identifier, Key and Lock and it uses these three components to deal with replay attacks, privacy issues, cloning attacks, DOS etc',
+			link: 'https://www.lucidchart.com/documents/edit/47d8-9768-5095320c-b89d-55d70a40476b'
+		},
+		{
 			images: ['chromeBig2.png', 'clockies3.jpg', 'clockies1.jpg', 'clockies5.jpg'], title: 'Clockies',
 			info: 'Clockies is social appointment booking website. Service providers in local businesses ' +
 			'almost always market them selves through the word-of-mouth from their customers. Clockies strengthens ' +
@@ -20,11 +25,6 @@ var pagesData =
 			'<br><br>'+
 			'Clockies is very intuitive and simple and got fancy animations to make it more fun browsing the website. Clockies is equipped with a SOLR search engine, so searching for any kind of businesses gets relevant. '+
 			'We also enabled calendar sync via CALDAV, so employees can keep track of new bookings on the go with their phones. '
-		},
-		{
-			images: ['flowchart1.png', 'flowchart2.png'], title: 'RFID Secure Authentication Protocol',
-			info: 'I invented a solution for RFID Secure Authentication Protocol. The protocol is called IKL. IKL stands for Identifier, Key and Lock and it uses these three components to deal with replay attacks, privacy issues, cloning attacks, DOS etc',
-			link: 'https://www.lucidchart.com/documents/edit/47d8-9768-5095320c-b89d-55d70a40476b'
 		},
 		{
 			images: ['velinho2.jpg', 'velinho3.jpg', 'velinho1.jpg'], title: 'Velinho',
