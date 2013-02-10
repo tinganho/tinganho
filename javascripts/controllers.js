@@ -17,6 +17,11 @@ var pagesData =
 			link: 'https://chrome.google.com/webstore/detail/sass-inspector/lkofmbmllpgfbnonmnenkiakimpgoamn'
 		},
 		{
+			images: ['stylewithclass.png'], title: 'Stylewithclass/CSS pruner',
+			info: 'Style with class is a Compass extension. IT does with it says, style web pages using CSS classes. The problem it solves is that usually CSS files gets too bloated and we wanted to solve it in Wunderkraut. So I invented a way and a workflow so you actually in theory can get pretty near the minimal lines of code it requires to define the style of a website.',
+			link: 'https://github.com/tinganho/stylewithclass'
+		},
+		{
 			images: ['chromeBig2.png', 'clockies3.jpg', 'clockies1.jpg', 'clockies5.jpg'], title: 'Clockies',
 			info: 'Clockies is social appointment booking website. Service providers in local businesses ' +
 			'almost always market them selves through the word-of-mouth from their customers. Clockies strengthens ' +
