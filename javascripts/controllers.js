@@ -7,14 +7,14 @@ var pagesData =
 			link: 'https://github.com/tinganho/grunt-contrib-translate'
 		},
 		{
-			images: ['sass.png', 'sass-chrome.png'], title: 'SASS Inspector',
-			info: 'As SASS is emerging on all fronts there hasn’t been any SASS Inspector for Chrome. Not even the inventor of SASS could export this kind of functionality to Chrome. Luckily, I was the first one who created it :). Now there is a built in version of SASS Inspector in Chrome.',
-			link: 'https://chrome.google.com/webstore/detail/sass-inspector/lkofmbmllpgfbnonmnenkiakimpgoamn'
-		},
-		{
 			images: ['flowchart1.png', 'flowchart2.png'], title: 'RFID Secure Authentication Protocol',
 			info: 'I invented a solution for RFID Secure Authentication Protocol. The protocol is called IKL. IKL stands for Identifier, Key and Lock and it uses these three components to deal with replay attacks, privacy issues, cloning attacks, DOS etc',
 			link: 'https://www.lucidchart.com/documents/edit/47d8-9768-5095320c-b89d-55d70a40476b'
+		},
+		{
+			images: ['sass.png', 'sass-chrome.png'], title: 'SASS Inspector',
+			info: 'As SASS is emerging on all fronts there hasn’t been any SASS Inspector for Chrome. Not even the inventor of SASS could export this kind of functionality to Chrome. Luckily, I was the first one who created it :). Now there is a built in version of SASS Inspector in Chrome.',
+			link: 'https://chrome.google.com/webstore/detail/sass-inspector/lkofmbmllpgfbnonmnenkiakimpgoamn'
 		},
 		{
 			images: ['chromeBig2.png', 'clockies3.jpg', 'clockies1.jpg', 'clockies5.jpg'], title: 'Clockies',
